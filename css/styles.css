@@ -15,3 +15,54 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
+.list {
+  list-style: none;
+}
+
+/* Logo  */
+.logo {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.logo-style {
+  color: var(--accent-color);
+}
+/* Site navigation */
+.site-nav .link {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--primary-text-color);
+}
+/* Section */
+.section {
+  color: var(--primary-text-color);
+}
+/* Features */
+.feature-list .title {
+  color: var(--primary-text-color);
+}
+.feature-list .description {
+  color: var(--title-text-color);
+}
+/* Our team */
+.team-list .title {
+  color: var(--primary-text-color);
+}
+.team-list .speciality {
+  color: var(--title-text-color);
+}
+/* Button */
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
