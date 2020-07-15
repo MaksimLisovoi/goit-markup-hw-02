@@ -136,7 +136,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* Button */
+/* Buttons */
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
