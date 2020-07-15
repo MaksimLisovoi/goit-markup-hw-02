@@ -71,7 +71,6 @@ ul {
   text-decoration: none;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
-  background-color: var(--title-text-color);
 }
 
 /* Hero */
@@ -140,8 +139,24 @@ ul {
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
 }
 /* Footer */
 footer {
   background-color: #2f303a;
 }
+.action-description {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+/* Portfolio */
